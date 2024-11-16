@@ -4,7 +4,8 @@ from flask import Flask, request, redirect, jsonify, send_from_directory
 from werkzeug.utils import secure_filename
 from flask_cors import CORS, cross_origin
 app = Flask(__name__)
-cors = CORS(app)
+# Enable CORS for all origins
+CORS(app)  # This allows all origins to access your API
 app.config['CORS_HEADERS'] = 'Content-Type'
 from groq import Groq
 import os
