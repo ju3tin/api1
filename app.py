@@ -4,6 +4,8 @@ import os
 os.environ["GROQ_API_KEY"]= "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"
 # Initialize Flask app
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 # Initialize Groq client
 client = Groq()
