@@ -3,6 +3,7 @@ atomicwrites==1.4.0
 attrs==24.2.0
 click==8.0.3
 compressed-tensors==0.8.0
+Flask-Cors==5.0.0
 Flask==2.0.2
 gguf==0.10.0
 groq==0.12.0
