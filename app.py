@@ -3,6 +3,7 @@ from groq import Groq
 import os
 os.environ["GROQ_API_KEY"]= "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"
 # Initialize Flask app
+from flask_cors import CORS, cross_origin
 app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
