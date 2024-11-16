@@ -1,11 +1,4 @@
-appdirs==1.4.4
-atomicwrites==1.4.0
-attrs==24.2.0
-click==8.0.3
-compressed-tensors==0.8.0
-flash==1.0.3
 Flask==2.0.2
 gguf==0.10.0
 groq==0.12.0
 gunicorn==20.1.0
-
